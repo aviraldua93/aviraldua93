@@ -1,5 +1,7 @@
 # Hi, I'm Aviral 👋
 
+<img src="avatar.png" width="200" align="right" />
+
 **Senior Software Engineer at Microsoft** · Building the infrastructure that makes AI agents production-ready.
 
 I design orchestration, observability, and safety layers for multi-agent systems. At Microsoft, I own governed AI architecture for Azure test infrastructure and contribute to [Conductor](https://github.com/microsoft/conductor), Microsoft's open-source multi-agent framework. I also contribute to [Biome](https://github.com/biomejs/biome) (Rust), [DSPy](https://github.com/stanfordnlp/dspy) (Stanford NLP), and [AG2](https://github.com/ag2ai/ag2).
