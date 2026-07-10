@@ -1,46 +1,55 @@
 # Hi, I'm Aviral 👋
 
-<img src="avatar.png" width="200" align="right" />
+<img src="avatar.png" width="180" align="right" alt="Aviral's avatar" />
 
-**Senior Software Engineer at Microsoft** · Building the infrastructure that makes AI agents production-ready.
+**Software Engineer at Microsoft** · Building the infrastructure that makes AI agents production-ready.
 
-I design orchestration, observability, and safety layers for multi-agent systems. At Microsoft, I own governed AI architecture for Azure test infrastructure and contribute to [Conductor](https://github.com/microsoft/conductor), Microsoft's open-source multi-agent framework. I also contribute to [Biome](https://github.com/biomejs/biome) (Rust), [DSPy](https://github.com/stanfordnlp/dspy) (Stanford NLP), and [AG2](https://github.com/ag2ai/ag2).
+I work on AI agent orchestration, multi-agent systems, and the [A2A protocol](https://github.com/google-a2a/A2A) — designing the orchestration, observability, and safety layers that multi-agent workflows need. My open-source projects span the full stack, from protocol implementation to adversarial testing.
 
 ---
 
-### 🏗️ What I Build
-
-I build across the **full multi-agent stack** — from protocol implementation to adversarial testing:
+### 🏗️ The Multi-Agent Stack
 
 ```
-L5  ADVERSARIAL TESTING     agent-traps-lab (DeepMind taxonomy, 22 scenarios)
-L4  PARADIGM EVALUATION     wiki-vs-rag (Karpathy method benchmark)
-L3  KNOWLEDGE & RETRIEVAL   rag-a2a (hybrid search, 236 tests)
-L2  OBSERVABILITY           ag-ui-crews (AG-UI protocol dashboard)
-L1  ORCHESTRATION           a2a-crews (A2A protocol, AI planner, 149 tests)
-L0  PATTERNS & THEORY       multi-agent-playbook (120+ coordinated agents)
+SAFETY & EVAL          agent-traps-lab · agent-shield
+KNOWLEDGE & RETRIEVAL  rag-a2a · wiki-recall · wiki-vs-rag
+OBSERVABILITY          ag-ui-crews · ventureos
+ORCHESTRATION          a2a-crews · agent-teams
 ```
 
 ### 🔬 Featured Projects
 
-| Project | What | Tests |
-|---------|------|:-----:|
-| [**a2a-crews**](https://github.com/aviraldua93/a2a-crews) | Multi-agent orchestration on Google's A2A protocol. AI planner reads your codebase and designs domain-specific teams. | 149 |
-| [**rag-a2a**](https://github.com/aviraldua93/rag-a2a) | Production RAG pipeline as an A2A agent. Hybrid search (dense + BM25), reranking, SSE streaming. | 236 |
-| [**ag-ui-crews**](https://github.com/aviraldua93/ag-ui-crews) | Real-time dashboard for watching multi-agent crews execute — built on CopilotKit's AG-UI protocol. | 106 |
-| [**agent-traps-lab**](https://github.com/aviraldua93/agent-traps-lab) | Empirical testbed for DeepMind's "AI Agent Traps" paper — 22 scenarios, 4 models, statistical rigor. | — |
-| [**devcontext**](https://github.com/aviraldua93/devcontext) | Developer context tool: 5-layer memory architecture, Karpathy wiki compilation, 15 MCP tools. | 833 |
-| [**multi-agent-playbook**](https://github.com/aviraldua93/multi-agent-playbook) | Operational patterns from running 120+ coordinated AI agents across 6 frameworks. | — |
+**Orchestration & Protocols**
+- [**a2a-crews**](https://github.com/aviraldua93/a2a-crews) — Turn one command into a team of AI agents. Built on Google's A2A protocol.
+- [**ag-ui-crews**](https://github.com/aviraldua93/ag-ui-crews) — Real-time dashboard for `a2a-crews`, built on the AG-UI protocol. Watch your crews plan, execute, and deliver in a live web UI.
+- [**ventureos**](https://github.com/aviraldua93/ventureos) — Mission Control for AI agent teams: a real-time dashboard to watch your agents think, talk, code, and ship.
+- [**agent-teams**](https://github.com/aviraldua93/agent-teams) — Turn one Copilot CLI into a team of parallel AI specialists.
 
-### 📊 By the Numbers
+**Knowledge & Retrieval**
+- [**rag-a2a**](https://github.com/aviraldua93/rag-a2a) — Production-grade RAG pipeline exposed as an A2A agent. Hybrid search, reranking, evaluation, and streaming.
+- [**wiki-recall**](https://github.com/aviraldua93/wiki-recall) — Compiled knowledge meets layered recall. Karpathy wiki + MemPalace memory layers in a 5-layer architecture.
+- [**wiki-vs-rag**](https://github.com/aviraldua93/wiki-vs-rag) — Head-to-head benchmark: RAG vs Karpathy-style LLM wiki knowledge compilation. Built with the A2A protocol.
+- [**devcontext**](https://github.com/aviraldua93/devcontext) — Portable AI-driven working scenarios — Docker for your engineering brain. Resume any project, on any machine, instantly.
 
-- **1,500+** tests across the portfolio
-- **3** open protocols implemented (A2A, AG-UI, MCP)
-- **5** major OSS contributions (Biome, DSPy, AG2, AJV, Conductor)
-- **120+** coordinated AI agents in production experiments
-- **9** years of distributed systems at Microsoft, SAP, Ahold
+**Safety & Evaluation**
+- [**agent-traps-lab**](https://github.com/aviraldua93/agent-traps-lab) — Empirical testbed for DeepMind's *AI Agent Traps* paper: 22 adversarial scenarios across 4 models.
+- [**agent-shield**](https://github.com/aviraldua93/agent-shield) — Runtime security gateway for multi-agent systems: policy enforcement, PII filtering, scope limits, and approval gates.
+
+**Tooling**
+- [**architect-ai**](https://github.com/aviraldua93/architect-ai) — AI-powered study tool for the Claude Certified Architect exam. The codebase *is* the curriculum.
+- [**gstack-copilot**](https://github.com/aviraldua93/gstack-copilot) — Garry Tan's `gstack` engineering workflow ported to the GitHub Copilot CLI.
+
+### 🧰 Working With
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![.NET](https://img.shields.io/badge/.NET-512BD4?logo=dotnet&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
+![A2A](https://img.shields.io/badge/protocol-A2A-informational)
+![AG--UI](https://img.shields.io/badge/protocol-AG--UI-informational)
+![MCP](https://img.shields.io/badge/protocol-MCP-informational)
 
 ### 🔗 Connect
 
-- 💼 [LinkedIn](https://linkedin.com/in/aviraldua)
+- 💼 [LinkedIn](https://www.linkedin.com/in/aviraldua)
 - 📧 aviral.dua93@gmail.com
